@@ -24,4 +24,9 @@
     size: auto;
 }
 
-
+.kokytos-loot-details,
+.panda-loot-details,
+.themis-loot-details,
+.athena-loot-details {
+    font-weight: bold;
+}
