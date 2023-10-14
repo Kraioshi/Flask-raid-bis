@@ -5,7 +5,9 @@ app = Flask(__name__)
 Bootstrap5(app)
 
 links = {
-    "blm-2521": 'https://etro.gg/gearset/1d113f03-16e3-4a47-83a9-c3366a0fff84'
+    "blm-2521": 'https://etro.gg/gearset/1d113f03-16e3-4a47-83a9-c3366a0fff84',
+    "blm-1292": 'https://etro.gg/gearset/29cc921f-570a-4069-926f-427fc95b3acb',
+    "blm-824": 'https://etro.gg/gearset/46e5dde8-3d11-418f-948b-f6452fb0c7e3'
 }
 
 
