@@ -52,11 +52,13 @@
 .ast,
 .sch,
 .sge,
-.whm
+.whm,
+.blm,
+.rdm,
+.smn
  {
     margin-bottom: 10px;
 }
-
 
 .drk .btn,
 .gnb .btn,
@@ -65,9 +67,11 @@
 .ast .btn,
 .sch .btn,
 .sge .btn,
-.whm .btn
-
- {
+.whm .btn,
+.blm .btn,
+.rdm .btn,
+.smn .btn
+{
     margin-right: -40px;
 }
 
