@@ -132,9 +132,24 @@
     </div>
 
     <div class="physical" style="display: flex; gap: 10px;">
-        <div class="brd"></div>
-        <div class="dnc"></div>
-        <div class="mch"></div>
+        <div class="brd">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Bard.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.48</span>
+        </div>
+        <div class="dnc">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Dancer.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.49</span>
+        </div>
+        <div class="mch">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Machinist.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.50</span>
+        </div>
     </div>
 
     <div class="caster" style="display: flex; gap: 10px;">

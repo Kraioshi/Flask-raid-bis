@@ -45,32 +45,18 @@
     top: 30px;
 }
 
-.drk,
-.gnb,
-.pld,
-.war,
-.ast,
-.sch,
-.sge,
-.whm,
-.blm,
-.rdm,
-.smn
+.drk, .gnb, .pld, .war,
+.ast, .sch, .sge, .whm,
+.brd, .dnc, .mch,
+.blm, .rdm, .smn
  {
     margin-bottom: 10px;
 }
 
-.drk .btn,
-.gnb .btn,
-.pld .btn,
-.war .btn,
-.ast .btn,
-.sch .btn,
-.sge .btn,
-.whm .btn,
-.blm .btn,
-.rdm .btn,
-.smn .btn
+.drk .btn, .gnb .btn, .pld .btn, .war .btn,
+.ast .btn, .sch .btn, .sge .btn, .whm .btn,
+.brd .btn, .dnc .btn, .mch .btn,
+.blm .btn,.rdm .btn, .smn .btn
 {
     margin-right: -40px;
 }
