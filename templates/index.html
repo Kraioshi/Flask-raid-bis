@@ -2,8 +2,9 @@
 
 {% block title %} Lootmaestrolo {% endblock %}
 {% block content %}
-<div class="bis" style="display: flex; justify-content: space-between;">
-    <div class="tank" style="display: flex; gap: 10px;">
+<div class="bis" style="display: flex; justify-content: space-around;">
+
+    <div class="tank" style="display: flex; gap: 8px;">
         <div class="drk">
             <button class="btn btn-outline-light">
                 <img src="{{ url_for('static', filename='images/icons/DarkKnight.png') }}">
@@ -68,7 +69,7 @@
         </div>
     </div>
 
-    <div class="healer" style="display: flex; gap: 10px;">
+    <div class="healer" style="display: flex; gap: 8px;">
         <div class="ast">
             <button class="btn btn-outline-light">
                 <img src="{{ url_for('static', filename='images/icons/Astrologian.png') }}">
@@ -123,15 +124,70 @@
         </div>
     </div>
 
-    <div class="melee" style="display: flex; gap: 10px;">
-        <div class="drg"></div>
-        <div class="mnk"></div>
-        <div class="nin"></div>
-        <div class="rpr"></div>
-        <div class="sam"></div>
+    <div class="melee" style="display: flex; gap: 8px;">
+        <div class="drg">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Dragoon.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.50</span>
+
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Dragoon.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.46</span>
+        </div>
+
+        <div class="mnk">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Monk.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">1.94</span>
+
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Monk.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">1.93</span>
+        </div>
+
+        <div class="nin">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Ninja.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.12</span>
+        </div>
+
+        <div class="rpr">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Reaper.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.50</span>
+
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Reaper.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.49</span>
+        </div>
+
+        <div class="sam">
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Samurai.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.15</span>
+
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Samurai.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.08</span>
+
+            <button class="btn btn-outline-light">
+                <img src="{{ url_for('static', filename='images/icons/Samurai.png') }}">
+            </button>
+            <span class="gcd" style="text-align: center;">2.00</span>
+
+        </div>
     </div>
 
-    <div class="physical" style="display: flex; gap: 10px;">
+    <div class="physical" style="display: flex; gap: 8px;">
         <div class="brd">
             <button class="btn btn-outline-light">
                 <img src="{{ url_for('static', filename='images/icons/Bard.png') }}">
@@ -152,7 +208,8 @@
         </div>
     </div>
 
-    <div class="caster" style="display: flex; gap: 10px;">
+    <div class="caster" style="display: flex; gap: 8px;">
+
         <div class="blm">
             <button class="btn btn-outline-light">
                 <img src="{{ url_for('static', filename='images/icons/BlackMage.png') }}">
