@@ -35,7 +35,7 @@ function togglePandaLoot(lootElement) {
     lootElement.style.display = 'block';
 }
 
-// Set coffers to hidden by default
+// Set P10S coffers to hidden by default
 hidePandaCoffers();
 
 document.getElementById('pandaemonium').addEventListener('click', function() {

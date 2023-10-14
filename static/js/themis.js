@@ -1,4 +1,3 @@
-
 let lootEleven = document.querySelector('.themis-loot');
 
 let chest = document.querySelector('.chest');
@@ -7,11 +6,6 @@ let solvent = document.querySelector('.solvent');
 let twine = document.querySelector('.twine');
 
 lootEleven.style.display = 'none';
-
-chest.style.display = 'none';
-legs.style.display = 'none';
-solvent.style.display = 'none';
-twine.style.display = 'none';
 
 // Hiding coffers and all info when clicking on boss icon again/other boss
 
@@ -33,15 +27,14 @@ function toggleThemisBoss(bossLoot) {
 
 function toggleThemisLoot(lootElement) {
     // Hide all loot elements
-    chest.style.display = 'none';
-    legs.style.display = 'none';
-    solvent.style.display = 'none';
-    twine.style.display = 'none';
+    hideThemisCoffers();
 
     // Show the specific loot element
     lootElement.style.display = 'block';
 }
 
+// Set P11S coffers to hidden by default
+hideThemisCoffers();
 
 document.getElementById('themis').addEventListener('click', function() {
     toggleThemisBoss(lootEleven);

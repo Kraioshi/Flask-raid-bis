@@ -1,5 +1,3 @@
-(function() {
-
 var lootNine = document.querySelector('.kokytos-loot');
 
 var earring = document.querySelector('.earring');
@@ -8,11 +6,6 @@ var bracelet = document.querySelector('.bracelet');
 var ring = document.querySelector('.ring');
 
 lootNine.style.display = 'none';
-
-earring.style.display = 'none';
-necklace.style.display = 'none';
-bracelet.style.display = 'none';
-ring.style.display = 'none';
 
 // Hiding coffers and all info when clicking on boss icon again/other boss
 
@@ -23,7 +16,7 @@ function hideKokytosCoffers() {
     ring.style.display = 'none';
 }
 
-function toggleBoss(bossLoot) {
+function toggleKokytosBoss(bossLoot) {
     if (bossLoot.style.display === 'none') {
         bossLoot.style.display = 'block';
     } else {
@@ -32,38 +25,33 @@ function toggleBoss(bossLoot) {
     }
 }
 
-function toggleLoot(lootElement) {
+function toggleKokytosLoot(lootElement) {
     // Hide all loot elements
-    earring.style.display = 'none';
-    necklace.style.display = 'none';
-    bracelet.style.display = 'none';
-    ring.style.display = 'none';
+    hideKokytosCoffers();
 
     // Show the specific loot element
     lootElement.style.display = 'block';
 }
 
+// Set P9S coffers to hidden by default
+hideKokytosCoffers();
 
 document.getElementById('kokytos').addEventListener('click', function() {
-    toggleBoss(lootNine);
+    toggleKokytosBoss(lootNine);
 });
 
 document.getElementById('earring').addEventListener('click', function() {
-    toggleLoot(earring);
+    toggleKokytosLoot(earring);
 });
 
 document.getElementById('necklace').addEventListener('click', function() {
-    toggleLoot(necklace);
+    toggleKokytosLoot(necklace);
 });
 
 document.getElementById('bracelet').addEventListener('click', function() {
-    toggleLoot(bracelet);
+    toggleKokytosLoot(bracelet);
 });
 
 document.getElementById('ring').addEventListener('click', function() {
-    toggleLoot(ring);
+    toggleKokytosLoot(ring);
 });
-
-
-})();
-
