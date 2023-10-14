@@ -18,20 +18,7 @@
             </div>
         </div>
         <div class="col-2">
-            <div class="kokytos-loot-details">
-                <div class="earring">
-                    <p>Ascension Earring Coffer </p>
-                </div>
-                <div class="necklace">
-                    <p>Ascension Neck Coffer </p>
-                </div>
-                <div class="bracelet">
-                    <p>Ascension Bracelet Coffer </p>
-                </div>
-                <div class="ring">
-                    <p>Ascension Ring Coffer </p>
-                </div>
-            </div>
+            {% include 'kokytos_loot.html' %}
         </div>
 
     </div>
@@ -49,23 +36,7 @@
             </div>
         </div>
         <div class="col-2">
-            <div class="panda-loot-details">
-                <div class="head">
-                    <p>Ascension Head Gear Coffer </p>
-                </div>
-                <div class="hands">
-                    <p>Ascension Hand Gear Coffer </p>
-                </div>
-                <div class="feet">
-                    <p>Ascension Foot Gear Coffer </p>
-                </div>
-                <div class="tome">
-                    <p>Hermetic Tomestone </p>
-                </div>
-                <div class="shine">
-                    <p>Divine Shine</p>
-                </div>
-            </div>
+            {% include 'pandaemonium_loot.html' %}
         </div>
     </div>
 
@@ -82,20 +53,7 @@
             </div>
         </div>
         <div class="col-2">
-            <div class="themis-loot-details">
-                <div class="chest">
-                    <p>Ascension Chest Gear Coffer </p>
-                </div>
-                <div class="legs">
-                    <p>Ascension Leg Gear Coffer </p>
-                </div>
-                <div class="solvent">
-                    <p>Divine Solvent</p>
-                </div>
-                <div class="twine">
-                    <p>Divine Twine </p>
-                </div>
-            </div>
+            {% include 'themis_loot.html' %}
         </div>
     </div>
 
@@ -110,6 +68,9 @@
                 {% include 'athena.html' %}
                 <!-- Athena loot ends -->
             </div>
+        </div>
+        <div class="col-2">
+            {% include 'athena_loot.html' %}
         </div>
 
     </div>
