@@ -1,5 +1,5 @@
 .boss-img {
-    width: 200px;
+    width: 220px;
     height: 112.5px;
     margin: 0;
     border: 1px solid black;
@@ -8,5 +8,20 @@
 
 .btn {
     padding: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
+
+
+.loot-img {
+    width: 29.7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.loot-button {
+    margin-bottom: 0px;
+    padding: 0.5px;
+    size: auto;
+}
+
+
