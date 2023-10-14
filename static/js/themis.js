@@ -1,4 +1,3 @@
-(function() {
 
 let lootEleven = document.querySelector('.themis-loot');
 
@@ -63,6 +62,3 @@ document.getElementById('solvent').addEventListener('click', function() {
 document.getElementById('twine').addEventListener('click', function() {
     toggleThemisLoot(twine);
 });
-
-
-})();

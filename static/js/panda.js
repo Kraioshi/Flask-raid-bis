@@ -1,5 +1,3 @@
-(function() {
-
 var lootTen = document.querySelector('.pandaemonium-loot');
 
 var head = document.querySelector('.head');
@@ -9,12 +7,6 @@ var tome = document.querySelector('.tome');
 var shine = document.querySelector('.shine');
 
 lootTen.style.display = 'none';
-
-head.style.display = 'none';
-hands.style.display = 'none';
-feet.style.display = 'none';
-tome.style.display = 'none';
-shine.style.display = 'none';
 
 // Hiding coffers and all info when clicking on boss icon again/other boss
 
@@ -26,7 +18,7 @@ function hidePandaCoffers() {
     shine.style.display = 'none';
 }
 
-function toggleBoss(bossLoot) {
+function togglePandaBoss(bossLoot) {
     if (bossLoot.style.display === 'none') {
         bossLoot.style.display = 'block';
     } else {
@@ -35,41 +27,37 @@ function toggleBoss(bossLoot) {
     }
 }
 
-function toggleLoot(lootElement) {
+function togglePandaLoot(lootElement) {
     // Hide all loot elements
-    head.style.display = 'none';
-    hands.style.display = 'none';
-    feet.style.display = 'none';
-    tome.style.display = 'none';
-    shine.style.display = 'none';;
+    hidePandaCoffers();
 
     // Show the specific loot element
     lootElement.style.display = 'block';
 }
 
+// Set coffers to hidden by default
+hidePandaCoffers();
 
 document.getElementById('pandaemonium').addEventListener('click', function() {
-    toggleBoss(lootTen);
+    togglePandaBoss(lootTen);
 });
 
 document.getElementById('head').addEventListener('click', function() {
-    toggleLoot(head);
+    togglePandaLoot(head);
 });
 
 document.getElementById('hands').addEventListener('click', function() {
-    toggleLoot(hands);
+    togglePandaLoot(hands);
 });
 
 document.getElementById('feet').addEventListener('click', function() {
-    toggleLoot(feet);
+    togglePandaLoot(feet);
 });
 
 document.getElementById('tome').addEventListener('click', function() {
-    toggleLoot(tome);
+    togglePandaLoot(tome);
 });
 
 document.getElementById('shine').addEventListener('click', function() {
-    toggleLoot(shine);
+    togglePandaLoot(shine);
 });
-
-})();
