@@ -3,8 +3,12 @@
 {% block title %} Lootmaestrolo {% endblock %}
 
 {% block content %}
-
+    <button class="btn btn-outline-light" id="99">
+        <img src="{{ url_for('static', filename='images/misc/99.png') }}"
+             style="width: 30px; border:2px solid black; height: 25" >
+    </button>
 <div class="bis" style="display: flex; justify-content: space-around;">
+
     {% include 'bis.html' %}
 </div>
 
@@ -102,6 +106,7 @@
 <script src="{{url_for('static', filename='js/panda.js') }}"></script>
 <script src="{{url_for('static', filename='js/themis.js') }}"></script>
 <script src="{{url_for('static', filename='js/athena.js') }}"></script>
+<script src="{{url_for('static', filename='js/main.js') }}"></script>
 
 
 {% endblock %}
