@@ -3,22 +3,42 @@
 {% block title %} Index {% endblock %}
 {% block content %}
 
-<div class="container">
-    <button class="btn btn-outline-dark">
-        <img class="boss-img" src="{{ url_for('static', filename='images/p9.jpg') }}">
-    </button>
-
-    <button class="btn btn-outline-dark">
-        <img class="boss-img" src="{{ url_for('static', filename='images/p10.jpeg') }}">
-    </button>
-
-    <button class="btn btn-outline-dark">
-        <img class="boss-img" src="{{ url_for('static', filename='images/p11.jpg') }}">
-    </button>
-
-    <button class="btn btn-outline-dark">
-        <img class="boss-img" src="{{ url_for('static', filename='images/p12.jpg') }}">
-    </button>
+<div class='anabaseos'>
+    <div class="kokytos" style="display: flex;">
+        <button class="btn btn-outline-dark" id="kokytos">
+            <img class="boss-img" src="{{ url_for('static', filename='images/p9.jpg') }}">
+        </button>
+        <div class="kokytos-loot">
+    <p>Earring</p>
+    <p>Necklace</p>
+    <p>Bracelet</p>
+    <p>Ring</p>
 </div>
+
+    </div>
+
+    <div>
+        <button class="btn btn-outline-dark">
+            <img class="boss-img" src="{{ url_for('static', filename='images/p10.jpeg') }}">
+        </button>
+    </div>
+
+    <div>
+        <button class="btn btn-outline-dark">
+            <img class="boss-img" src="{{ url_for('static', filename='images/p11.jpg') }}">
+        </button>
+    </div>
+
+    <div>
+      <button class="btn btn-outline-dark">
+            <img class="boss-img" src="{{ url_for('static', filename='images/p12.jpg') }}">
+        </button>
+    </div>
+
+</div>
+
+
+
+<script src="{{url_for('static', filename='js/script.js') }}"></script>
 
 {% endblock %}
