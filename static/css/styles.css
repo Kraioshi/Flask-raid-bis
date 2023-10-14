@@ -45,21 +45,41 @@
     top: 22px;
 }
 
-.drk, .gnb, .pld, .war,
-.ast, .sch, .sge, .whm,
-.brd, .dnc, .mch,
-.blm, .rdm, .smn,
+.tank,
+.healer,
+.physical,
+.caster,
 .melee
  {
     margin-bottom: 10px;
 }
 
-.drk .btn, .gnb .btn, .pld .btn, .war .btn,
-.ast .btn, .sch .btn, .sge .btn, .whm .btn,
-.brd .btn, .dnc .btn, .mch .btn,
+.tank .btn,
+.healer .btn,
+.physical .btn,
 .caster .btn,
 .melee .btn
 {
     margin-right: -38px;
 }
 
+
+/* Bis */
+
+.healer-chest img
+{
+    width: 30px;
+    position: relative;
+    bottom: 8px;
+}
+
+.healer-chest .gcd {
+    position: relative;
+    left: -31px;
+    top: 30px;
+}
+
+.healer-chest .btn {
+    border: 2px solid black;
+    height: 50px;
+}
