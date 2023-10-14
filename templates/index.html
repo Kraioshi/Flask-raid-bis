@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <div class="panda" style="display: flex;">
+    <div class="pandaemonium" style="display: flex;">
         <div class="col-2">
             <button class="btn btn-outline-dark" id="pandaemonium">
                 <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p10.jpeg') }}">
@@ -35,14 +35,25 @@
             </div>
         </div>
         <div class="col-1">
-            p9 loot Here
+            p10 loot Here
         </div>
     </div>
 
-    <div>
-        <button class="btn btn-outline-dark">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p11.jpg') }}">
-        </button>
+    <div class="themis" style="display: flex;">
+        <div class="col-2">
+            <button class="btn btn-outline-dark" id="themis">
+                <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p11.jpg') }}">
+            </button>
+
+            <div class="themis-loot">
+                <!-- Themis loot here -->
+                {% include 'themis.html' %}
+                <!-- Themis loot ends -->
+            </div>
+        </div>
+        <div class="col-1">
+            p11 loot Here
+        </div>
     </div>
 
     <div>
@@ -53,9 +64,6 @@
 
 </div>
 
-
-
-<!--<script src="{{url_for('static', filename='js/script.js') }}"></script>-->
-<script src="{{url_for('static', filename='js/loot.js') }}"></script>
+<script src="{{url_for('static', filename='js/script.js') }}"></script>
 
 {% endblock %}
