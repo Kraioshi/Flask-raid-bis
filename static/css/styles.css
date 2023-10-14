@@ -30,3 +30,15 @@
 .athena-loot-details {
     font-weight: bold;
 }
+
+.bis img{
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.gcd {
+    position: relative;
+    right: 46px;
+    top: 34px;
+}
