@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} Index {% endblock %}
+{% block content %}
+
+<div class="container">
+    <button class="btn btn-outline-dark">
+        <img class="boss-img" src="{{ url_for('static', filename='images/p9.jpg') }}">
+    </button>
+
+    <button class="btn btn-outline-dark">
+        <img class="boss-img" src="{{ url_for('static', filename='images/p10.jpeg') }}">
+    </button>
+
+    <button class="btn btn-outline-dark">
+        <img class="boss-img" src="{{ url_for('static', filename='images/p11.jpg') }}">
+    </button>
+
+    <button class="btn btn-outline-dark">
+        <img class="boss-img" src="{{ url_for('static', filename='images/p12.jpg') }}">
+    </button>
+</div>
+
+{% endblock %}
