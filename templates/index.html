@@ -6,32 +6,29 @@
 <div class='anabaseos'>
     <div class="kokytos" style="display: flex;">
         <button class="btn btn-outline-dark" id="kokytos">
-            <img class="boss-img" src="{{ url_for('static', filename='images/p9.jpg') }}">
+            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p9.jpg') }}">
         </button>
         <div class="kokytos-loot">
-    <p>Earring</p>
-    <p>Necklace</p>
-    <p>Bracelet</p>
-    <p>Ring</p>
-</div>
+            {% include 'kokytos.html' %}
+        </div>
 
     </div>
 
     <div>
         <button class="btn btn-outline-dark">
-            <img class="boss-img" src="{{ url_for('static', filename='images/p10.jpeg') }}">
+            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p10.jpeg') }}">
         </button>
     </div>
 
     <div>
         <button class="btn btn-outline-dark">
-            <img class="boss-img" src="{{ url_for('static', filename='images/p11.jpg') }}">
+            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p11.jpg') }}">
         </button>
     </div>
 
     <div>
       <button class="btn btn-outline-dark">
-            <img class="boss-img" src="{{ url_for('static', filename='images/p12.jpg') }}">
+            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p12.jpg') }}">
         </button>
     </div>
 
