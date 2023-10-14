@@ -66,20 +66,31 @@
 
 /* Bis */
 
-.healer-chest img
+.healer-chest img,
+.caster-chest img,
+.melee-chest img
 {
     width: 30px;
     position: relative;
     bottom: 8px;
 }
 
-.healer-chest .gcd {
+.healer-chest .gcd,
+.caster-chest .gcd,
+.melee-chest .gcd
+ {
     position: relative;
-    left: -31px;
+    left: -11px;
     top: 30px;
 }
 
-.healer-chest .btn {
+.healer-chest .btn,
+.caster-chest .btn,
+.melee-chest .btn
+ {
     border: 2px solid black;
     height: 50px;
+    margin-left: -20px;
+    position: relative;
+    left: 20px;
 }
