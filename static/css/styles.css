@@ -48,7 +48,12 @@
 .drk,
 .gnb,
 .pld,
-.war {
+.war,
+.ast,
+.sch,
+.sge,
+.whm
+ {
     margin-bottom: 10px;
 }
 
@@ -56,7 +61,13 @@
 .drk .btn,
 .gnb .btn,
 .pld .btn,
-.war .btn {
+.war .btn,
+.ast .btn,
+.sch .btn,
+.sge .btn,
+.whm .btn
+
+ {
     margin-right: -40px;
 }
 
