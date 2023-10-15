@@ -1,8 +1,14 @@
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap5
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
 Bootstrap5(app)
+
+load_dotenv()
+
+app.config["SECRET_KEY"] = os.getenv('SECRET_KEY')
 
 links = {
     'drk-250': 'https://etro.gg/gearset/dcd2eb34-7c43-4840-a17b-2eb790f19cf4',
