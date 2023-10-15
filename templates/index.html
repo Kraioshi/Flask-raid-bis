@@ -5,94 +5,106 @@
 {% block content %}
 
 
+<div class="anabaseos" style="display: flex; gap: 0px;">
+    <div class="row">
+        <div class="col">
+            <div class="kokytos">
+                <button class="btn btn-outline-dark" id="kokytos">
+                    <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p9.jpg') }}">
+                </button>
 
-<div class="anabaseos" style="display: flex; gap: 15px; margin-left: 20px;">
+                <div class="kokytos-loot">
+                    <!-- Kokytos loot here -->
+                    {% include 'kokytos.html' %}
+                    <!-- Kokytos loot ends -->
+                </div>
 
-    <div class="kokytos">
-        <button class="btn btn-outline-dark" id="kokytos">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p9.jpg') }}">
-        </button>
-
-        <div class="kokytos-loot">
-            <!-- Kokytos loot here -->
-            {% include 'kokytos.html' %}
-            <!-- Kokytos loot ends -->
+                <div class="kokytos-loot-details col">
+                    {% include 'kokytos_loot.html' %}
+                </div>
+            </div>
         </div>
 
-        <div class="kokytos-loot-details col">
-            {% include 'kokytos_loot.html' %}
+        <div class="col">
+            <div class="pandaemonium">
+                <button class="btn btn-outline-dark" id="pandaemonium">
+                    <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p10.jpeg') }}">
+                </button>
+
+                <div class="pandaemonium-loot">
+                    <!-- Panda loot here -->
+                    {% include 'pandaemonium.html' %}
+                    <!-- Panda loot ends -->
+                </div>
+
+                <div class="panda-loot-details">
+                    {% include 'pandaemonium_loot.html' %}
+                </div>
+            </div>
         </div>
+
+        <div class="col">
+            <div class="themis">
+                <button class="btn btn-outline-dark" id="themis">
+                    <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p11.jpg') }}">
+                </button>
+
+                <div class="themis-loot">
+                    <!-- Themis loot here -->
+                    {% include 'themis.html' %}
+                    <!-- Themis loot ends -->
+                </div>
+
+                <div class="themis-loot-details col" style="max-width: 220px;">
+                    {% include 'themis_loot.html' %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="athena">
+                <button class="btn btn-outline-dark" id="athena">
+                    <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p12.jpg') }}">
+                </button>
+
+                <div class="athena-loot">
+                    <!-- Athena loot here -->
+                    {% include 'athena.html' %}
+                    <!-- Athena loot ends -->
+                </div>
+
+                <div class="athena-loot-details">
+                    {% include 'athena_loot.html' %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="supports">
+                <button class="btn btn-outline-dark" id="supports">
+                    <img class="boss-img" src="{{ url_for('static', filename='images/bosses/dps.png') }}">
+                </button>
+
+                <div class="supports-role">
+                    {% include 'supports.html' %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="dps">
+                <button class="btn btn-outline-dark" id="dps">
+                    <img class="boss-img" src="{{ url_for('static', filename='images/bosses/supports.png') }}">
+                </button>
+
+                <div class="dps-role">
+                    {% include 'dps.html' %}
+                </div>
+            </div>
+        </div>
+
+
     </div>
-
-
-    <div class="pandaemonium">
-        <button class="btn btn-outline-dark" id="pandaemonium">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p10.jpeg') }}">
-        </button>
-
-        <div class="pandaemonium-loot">
-            <!-- Panda loot here -->
-            {% include 'pandaemonium.html' %}
-            <!-- Panda loot ends -->
-        </div>
-
-        <div class="panda-loot-details">
-            {% include 'pandaemonium_loot.html' %}
-        </div>
-    </div>
-
-    <div class="themis">
-        <button class="btn btn-outline-dark" id="themis">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p11.jpg') }}">
-        </button>
-
-        <div class="themis-loot">
-            <!-- Themis loot here -->
-            {% include 'themis.html' %}
-            <!-- Themis loot ends -->
-        </div>
-
-        <div class="themis-loot-details col" style="max-width: 220px;">
-            {% include 'themis_loot.html' %}
-        </div>
-    </div>
-
-    <div class="athena">
-        <button class="btn btn-outline-dark" id="athena">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p12.jpg') }}">
-        </button>
-
-        <div class="athena-loot">
-            <!-- Athena loot here -->
-            {% include 'athena.html' %}
-            <!-- Athena loot ends -->
-        </div>
-
-        <div class="athena-loot-details">
-            {% include 'athena_loot.html' %}
-        </div>
-    </div>
-
-    <div class="supports">
-        <button class="btn btn-outline-dark" id="supports">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/dps.png') }}">
-        </button>
-
-        <div class="supports-role">
-            {% include 'supports.html' %}
-        </div>
-    </div>
-
-    <div class="dps">
-        <button class="btn btn-outline-dark" id="dps">
-            <img class="boss-img" src="{{ url_for('static', filename='images/bosses/supports.png') }}">
-        </button>
-
-        <div class="dps-role">
-            {% include 'dps.html' %}
-        </div>
-    </div>
-
 </div>
 
 <script src="{{url_for('static', filename='js/kokytos.js') }}"></script>
