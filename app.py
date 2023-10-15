@@ -25,6 +25,10 @@ links = {
     'smn-247': 'https://etro.gg/gearset/53a01c1e-a167-481b-bcfd-1428815d4b55',
     'smn-246': 'https://etro.gg/gearset/b42339b3-8fca-4a4f-ad67-85343e84a4f3',
 
+    'dnc-249': 'https://etro.gg/gearset/50746158-5be1-4972-82f4-84a577f4bcce',
+    'brd-248': 'https://etro.gg/gearset/f2426d1e-2da8-4151-bf52-74ca67b5f4a2',
+    'mch-250': 'https://etro.gg/gearset/0001cd0d-ee54-4b85-8bb6-8ed79e9e7745'
+
 }
 
 
