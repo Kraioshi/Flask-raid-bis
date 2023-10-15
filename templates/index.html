@@ -5,46 +5,46 @@
 {% block content %}
 
 
-<div class="anabaseos" style="display: flex; gap: 0px;">
+<div class="anabaseos" style="display: flex;">
     <div class="row">
-        <div class="col">
-            <div class="kokytos">
+        <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+            <div class="kokytos" style="align-self: center;">
                 <button class="btn btn-outline-dark" id="kokytos">
                     <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p9.jpg') }}">
                 </button>
 
-                <div class="kokytos-loot">
+                <div class="kokytos-loot" style="align-self: center;">
                     <!-- Kokytos loot here -->
                     {% include 'kokytos.html' %}
                     <!-- Kokytos loot ends -->
                 </div>
 
-                <div class="kokytos-loot-details col">
+                <div class="kokytos-loot-details" style="max-width: 220px;">
                     {% include 'kokytos_loot.html' %}
                 </div>
             </div>
         </div>
 
-        <div class="col">
-            <div class="pandaemonium">
+        <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+            <div class="pandaemonium" style="align-self: center;">
                 <button class="btn btn-outline-dark" id="pandaemonium">
                     <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p10.jpeg') }}">
                 </button>
 
-                <div class="pandaemonium-loot">
+                <div class="pandaemonium-loot" style="align-self: center;">
                     <!-- Panda loot here -->
                     {% include 'pandaemonium.html' %}
                     <!-- Panda loot ends -->
                 </div>
 
-                <div class="panda-loot-details">
+                <div class="panda-loot-details" style="max-width: 220px;">
                     {% include 'pandaemonium_loot.html' %}
                 </div>
             </div>
         </div>
 
-        <div class="col">
-            <div class="themis">
+        <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+            <div class="themis" style="align-self: center;">
                 <button class="btn btn-outline-dark" id="themis">
                     <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p11.jpg') }}">
                 </button>
@@ -61,8 +61,8 @@
             </div>
         </div>
 
-        <div class="col">
-            <div class="athena">
+        <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+            <div class="athena" style="align-self: center;">
                 <button class="btn btn-outline-dark" id="athena">
                     <img class="boss-img" src="{{ url_for('static', filename='images/bosses/p12.jpg') }}">
                 </button>
@@ -79,25 +79,24 @@
             </div>
         </div>
 
-        <div class="col">
-            <div class="supports">
+        <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+            <div class="supports" style="align-self: center;">
                 <button class="btn btn-outline-dark" id="supports">
                     <img class="boss-img" src="{{ url_for('static', filename='images/bosses/dps.png') }}">
                 </button>
 
-                <div class="supports-role">
+                <div class="supports-role" style="max-width: 220px;">
                     {% include 'supports.html' %}
                 </div>
             </div>
         </div>
 
-        <div class="col">
-            <div class="dps">
+        <div class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+            <div class="dps" style="align-self: center;">
                 <button class="btn btn-outline-dark" id="dps">
                     <img class="boss-img" src="{{ url_for('static', filename='images/bosses/supports.png') }}">
                 </button>
-
-                <div class="dps-role">
+                <div class="dps-role" style="max-width: 220px;">
                     {% include 'dps.html' %}
                 </div>
             </div>

@@ -1,34 +1,4 @@
-/* Define styles for larger screens (e.g., tablets and desktops) */
-@media (min-width: 768px) {
-    .anabaseos {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
 
-    .col-2 {
-        flex: 0 0 calc(50% - 15px);
-        max-width: calc(50% - 15px);
-    }
-
-    /* Add more specific styling as needed for larger screens */
-}
-
-/* Define styles for smaller screens (e.g., mobile devices) */
-@media (max-width: 767px) {
-    .anabaseos {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .col-2 {
-        flex: 0 0 calc(100% - 10px);
-        max-width: calc(100% - 10px);
-    }
-
-    /* Add more specific styling as needed for smaller screens */
-}
 
 /* Add a maximum width for content on small screens */
 @media (max-width: 768px) {
@@ -286,16 +256,29 @@ a {
 
 /* Sups */
 
-.sup-img {
-    width: 24px;
-    border: 1px solid black;
-    border-radius: 5px;
+.sup-img
+{
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
-/* */
+
 .dps-img {
-    width: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-right: -3px;
+    width: 19px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: -4px;
+}
+
+.tanks-healers{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.damage-dealers{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
