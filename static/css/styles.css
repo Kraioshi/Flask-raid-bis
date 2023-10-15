@@ -151,3 +151,28 @@ a {
     position: relative;
     left: 20px;
 }
+
+/* FEET */
+
+.feet img
+{
+    width: 30px;
+    position: relative;
+    bottom: 8px;
+}
+
+.feet .gcd
+ {
+    position: relative;
+    left: -11px;
+    top: 30px;
+}
+
+.feet .btn
+ {
+    border: 2px solid black;
+    height: 50px;
+    margin-left: -20px;
+    position: relative;
+    left: 20px;
+}
