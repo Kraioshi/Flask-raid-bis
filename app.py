@@ -42,10 +42,20 @@ links = {
     'whm-238': 'https://etro.gg/gearset/aee5c1f4-5e59-47fb-88ff-3eeffbef6231',
     'whm-234': 'https://etro.gg/gearset/020093de-e69a-458f-8278-c3406eaa8eb7',
 
+    'drg-250': 'https://etro.gg/gearset/8a907f52-75a4-4085-9deb-6a63ffa2abd8',
+    'drg-246': 'https://etro.gg/gearset/ba65b9ee-ec73-4b80-86c1-66a71849a5c8',
 
+    'mnk-194': 'https://etro.gg/gearset/cc22e1aa-6d78-4ffe-bc53-e8466373b6bc',
+    'mnk-193': 'https://etro.gg/gearset/aacac26e-56b3-4341-95ff-2ae0cc97e233',
 
+    'nin-212': 'https://etro.gg/gearset/6556da3a-4514-439e-b4f4-07e0ccc85e93',
 
+    'rpr-249': 'https://etro.gg/gearset/3c8ec7ad-ccfc-42ce-a129-13bd032e2220',
+    'rpr-250': 'https://etro.gg/gearset/dbedcbfc-21d0-420c-9c91-ed2e946adbe4',
 
+    'sam-215': 'https://etro.gg/gearset/d4b6bfc6-a82f-4732-8e55-7c13e094fc1d',
+    'sam-208': 'https://etro.gg/gearset/b25e8d82-3dcc-4656-aa62-07dce32f2976',
+    'sam-200': 'https://etro.gg/gearset/b0db96d2-564d-4850-971e-54a4436d63bd'
 }
 
 
