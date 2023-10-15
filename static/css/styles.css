@@ -201,3 +201,37 @@ a {
     position: relative;
     left: 20px;
 }
+
+/* right side */
+
+.earrings img,
+.necklace img,
+.bracelets img,
+.ring img
+{
+    width: 30px;
+    position: relative;
+    bottom: 8px;
+}
+
+.earrings .gcd,
+.necklace .gcd,
+.bracelets .gcd,
+.ring .gcd
+ {
+    position: relative;
+    left: -11px;
+    top: 30px;
+}
+
+.earrings .btn,
+.necklace .btn,
+.bracelets .btn,
+.ring .btn
+ {
+    border: 2px solid black;
+    height: 50px;
+    margin-left: -20px;
+    position: relative;
+    left: 20px;
+}
