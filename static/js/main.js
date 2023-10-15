@@ -2,7 +2,7 @@ var bisDiv = document.querySelector('.bis');
 
 function toggleVisibility(targetDiv) {
     if (targetDiv.style.display === 'none') {
-        targetDiv.style.display = 'block';
+        targetDiv.style.display = 'flex';
     } else {
         targetDiv.style.display = 'none';
     }

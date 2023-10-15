@@ -1,3 +1,43 @@
+/* Define styles for larger screens (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+    .anabaseos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .col-2 {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+
+    /* Add more specific styling as needed for larger screens */
+}
+
+/* Define styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+    .anabaseos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .col-2 {
+        flex: 0 0 calc(100% - 10px);
+        max-width: calc(100% - 10px);
+    }
+
+    /* Add more specific styling as needed for smaller screens */
+}
+
+/* Add a maximum width for content on small screens */
+@media (max-width: 768px) {
+    .earrings, .necklace, .bracelets, .ring {
+        max-width: 100%; /* Expand to full width on small screens */
+    }
+}
+
+
 a {
     style: text-decoration: none;
     color: black;
@@ -234,4 +274,12 @@ a {
     margin-left: -20px;
     position: relative;
     left: 20px;
+}
+
+.bis-gcd {
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    right: 36px;
+    top: 22px;
 }
