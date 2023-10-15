@@ -127,3 +127,27 @@ a {
     left: 20px;
 }
 
+/* HEAD */
+
+.head img
+{
+    width: 30px;
+    position: relative;
+    bottom: 8px;
+}
+
+.head .gcd
+ {
+    position: relative;
+    left: -11px;
+    top: 30px;
+}
+
+.head .btn
+ {
+    border: 2px solid black;
+    height: 50px;
+    margin-left: -20px;
+    position: relative;
+    left: 20px;
+}
