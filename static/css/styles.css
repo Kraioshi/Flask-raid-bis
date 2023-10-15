@@ -176,3 +176,28 @@ a {
     position: relative;
     left: 20px;
 }
+
+/* HANDS */
+
+.hands img
+{
+    width: 30px;
+    position: relative;
+    bottom: 8px;
+}
+
+.hands .gcd
+ {
+    position: relative;
+    left: -11px;
+    top: 30px;
+}
+
+.hands .btn
+ {
+    border: 2px solid black;
+    height: 50px;
+    margin-left: -20px;
+    position: relative;
+    left: 20px;
+}
