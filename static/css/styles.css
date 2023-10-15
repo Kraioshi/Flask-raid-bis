@@ -1,7 +1,7 @@
 
 
 /* Add a maximum width for content on small screens */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .earrings, .necklace, .bracelets, .ring {
         max-width: 100%; /* Expand to full width on small screens */
     }
@@ -52,13 +52,7 @@ a {
     border-radius: 9px;
 }
 
-.gcd {
-    position: relative;
-    font-weight: bold;
-    font-size: 13px;
-    left: 2px;
-    top: 22px;
-}
+
 
 .tank,
 .healer,
@@ -79,6 +73,8 @@ a {
 }
 
 
+
+
 /* Bis */
 
 /* CHEST */
@@ -90,15 +86,6 @@ a {
     width: 30px;
     position: relative;
     bottom: 8px;
-}
-
-.healer-chest .gcd,
-.caster-chest .gcd,
-.melee-chest .gcd
- {
-    position: relative;
-    left: -11px;
-    top: 30px;
 }
 
 .healer-chest .btn,
@@ -121,12 +108,6 @@ a {
     bottom: 8px;
 }
 
-.legs .gcd
- {
-    position: relative;
-    left: -11px;
-    top: 30px;
-}
 
 .legs .btn
  {
@@ -146,12 +127,7 @@ a {
     bottom: 8px;
 }
 
-.head .gcd
- {
-    position: relative;
-    left: -11px;
-    top: 30px;
-}
+
 
 .head .btn
  {
@@ -171,12 +147,7 @@ a {
     bottom: 8px;
 }
 
-.feet .gcd
- {
-    position: relative;
-    left: -11px;
-    top: 30px;
-}
+
 
 .feet .btn
  {
@@ -196,12 +167,7 @@ a {
     bottom: 8px;
 }
 
-.hands .gcd
- {
-    position: relative;
-    left: -11px;
-    top: 30px;
-}
+
 
 .hands .btn
  {
@@ -224,15 +190,6 @@ a {
     bottom: 8px;
 }
 
-.earrings .gcd,
-.necklace .gcd,
-.bracelets .gcd,
-.ring .gcd
- {
-    position: relative;
-    left: -11px;
-    top: 30px;
-}
 
 .earrings .btn,
 .necklace .btn,
@@ -246,13 +203,7 @@ a {
     left: 20px;
 }
 
-.bis-gcd {
-    font-weight: bold;
-    font-size: 13px;
-    position: relative;
-    right: 36px;
-    top: 22px;
-}
+
 
 /* Sups */
 
@@ -286,3 +237,27 @@ a {
 .btn.btn-outline-light:hover {
     background-color: #00fffb;
 }
+
+.gcd {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    left: -11px;
+}
+
+@media (max-width: 1080px) {
+    .gcd {
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+        font-size: 13px;
+        position: relative;
+        top: 30px;
+        left: -13px;
+    }
+}
+
+
