@@ -79,7 +79,7 @@
         </button>
 
         <div class="supports-role">
-            <p style="font-weight: bold; text-align: center;">Supports</p>
+            {% include 'supports.html' %}
         </div>
     </div>
 
@@ -89,7 +89,7 @@
         </button>
 
         <div class="dps-role">
-            <p style="font-weight: bold; text-align: center;">DPS</p>
+            {% include 'dps.html' %}
         </div>
     </div>
 
@@ -100,6 +100,8 @@
 <script src="{{url_for('static', filename='js/themis.js') }}"></script>
 <script src="{{url_for('static', filename='js/athena.js') }}"></script>
 <script src="{{url_for('static', filename='js/main.js') }}"></script>
+<script src="{{url_for('static', filename='js/supports.js') }}"></script>
+<script src="{{url_for('static', filename='js/dps.js') }}"></script>
 
 
 {% endblock %}

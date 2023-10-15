@@ -283,3 +283,19 @@ a {
     right: 36px;
     top: 22px;
 }
+
+/* Sups */
+
+.sup-img {
+    width: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* */
+.dps-img {
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: -3px;
+}
